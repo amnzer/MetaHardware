@@ -1,0 +1,344 @@
+(footprint "BCV62C215"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BCV62C,215-3")
+	(tags "Transistor BJT PNP")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "939ee433-5bd9-4b46-be08-d3ea7d86a4bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BCV62C,215"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2955d8b8-1952-4b0b-a883-00b71aef67b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BCV62.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5911eaf8-dafb-4273-8ef5-914f6fc810b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Transistor Current Mirror 2 PNP (Dual) Current Mirror 30V 100mA Surface Mount SOT-143B"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ada979dd-000f-48de-bb93-33ba657d8714")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Transistor Current Mirror 2 PNP (Dual) Current Mirror 30V 100mA Surface Mount SOT-143B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ec16740-0c83-46b8-ab74-9012d39f7462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83ae2748-f5d7-49a5-bfe5-40cac19f5ee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "771-BCV62C-T/R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fe8db69-f6ee-4b89-ad55-3773dab7122e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BCV62C215?qs=me8TqzrmIYVbjUnfvb2NLQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "645ac1d3-847d-47a1-b24c-3ffdfc25a71b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0b82879-9f1a-4bd5-a9c6-6dd0b2f8bcb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BCV62C,215"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ec7253d-69b7-4624-a680-efec8002c387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 -0.4)
+		(end -1.45 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61f31189-4b87-43c2-94d5-6632e84912a6")
+	)
+	(fp_line
+		(start -0.75 1.8)
+		(end -0.75 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ace6423b-2b95-4497-9bb2-95d339e3bbdc")
+	)
+	(fp_line
+		(start -0.75 1.9)
+		(end -0.75 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14de37a4-9ce0-496b-a34f-a902709fbb4b")
+	)
+	(fp_line
+		(start -0.4 -0.65)
+		(end 0.4 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5ea1c0d-eff8-4f92-a3b0-05d819bec8a4")
+	)
+	(fp_line
+		(start 0 0.65)
+		(end 0.4 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "929ef0dc-7293-4f37-a9d9-8ff26634432f")
+	)
+	(fp_line
+		(start 1.45 -0.4)
+		(end 1.45 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a201aaea-5242-4a1b-90f4-a0093a4ea8a1")
+	)
+	(fp_arc
+		(start -0.75 1.8)
+		(mid -0.7 1.85)
+		(end -0.75 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd50f099-ee7c-4807-b70a-4e2e2df85be2")
+	)
+	(fp_arc
+		(start -0.75 1.9)
+		(mid -0.8 1.85)
+		(end -0.75 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d5da3dc-e013-4729-b8aa-784de0021cd2")
+	)
+	(fp_line
+		(start -2.45 -2.35)
+		(end 2.45 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4994388d-6259-4461-aa14-0cb576a48475")
+	)
+	(fp_line
+		(start -2.45 2.35)
+		(end -2.45 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1683682-bdbe-48c7-bf83-165c9fa84240")
+	)
+	(fp_line
+		(start 2.45 -2.35)
+		(end 2.45 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4a6048e-c8c3-457c-a056-e2ff97d0c21a")
+	)
+	(fp_line
+		(start 2.45 2.35)
+		(end -2.45 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37770837-891a-4551-a2a8-67625c621aa6")
+	)
+	(fp_line
+		(start -1.45 -0.65)
+		(end -1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6603430-a990-4ea8-9e37-7ef3a935cefc")
+	)
+	(fp_line
+		(start -1.45 0.65)
+		(end 1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68dcd7df-deda-4b74-a354-6f2607ea93d8")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "062991b6-1677-446b-9ffe-cf6b4eb78fa0")
+	)
+	(fp_line
+		(start 1.45 0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "487386c2-ee51-4883-8452-c0b4c08c1d4b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "65a4e9e1-402e-445f-acd5-07f12921c330")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 1 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ca97388-4630-4890-8bc5-e6f4e9d9794f")
+	)
+	(pad "2" smd rect
+		(at 0.95 1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fb2a91c-7092-411f-838f-3f66f6602797")
+	)
+	(pad "3" smd rect
+		(at 0.95 -1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac53443b-a0be-4b4c-8a2c-beba6e324602")
+	)
+	(pad "4" smd rect
+		(at -0.95 -1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25bcecc5-3f53-4661-8088-ff8b81b64143")
+	)
+	(embedded_fonts no)
+	(model "BCV62C,215.stp"
+		(offset
+			(xyz -1.359999994 2.170000044 -1.21000002)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

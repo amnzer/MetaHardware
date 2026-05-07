@@ -1,0 +1,267 @@
+(footprint "GRM033D70J224ME01D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GRM03")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at -0.337 -1.575 0)
+		(layer "F.SilkS")
+		(uuid "f2dc80df-7555-428f-8032-712899ace88b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GRM0335C1H2R9BA01D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "af917aac-802a-4cdb-861d-0caff0875bf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H2R9BA01-01A.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "230d8964-8d8d-438d-a6fe-14de35ce454c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8661569f-e48d-4257-9d89-d8e5cdb3e8bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.33"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8708757-05b1-4970-b9a6-1ac0678b36ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TTI Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55c4f295-69b3-46b5-939a-e6fc606b3184")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TTI Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cece5cb8-d738-4b68-8a39-aece864c3c4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Murata Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca864e7c-d902-46c6-856d-557085d72656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "GRM0335C1H2R9BA01D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e71dd05b-00fb-4a10-9a8d-b66c73ef2cc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.05)
+		(end -0.7 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7e28f1e-c98b-4912-a4e2-e3815bcfaadd")
+	)
+	(fp_line
+		(start -0.7 0.05)
+		(end -0.7 0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00a5ac5f-f459-450a-ba13-593d566c25d5")
+	)
+	(fp_arc
+		(start -0.7 -0.05)
+		(mid -0.65 0)
+		(end -0.7 0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a1f1da7-f885-4beb-be97-0327bee17719")
+	)
+	(fp_arc
+		(start -0.7 0.05)
+		(mid -0.75 0)
+		(end -0.7 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0929ed36-6472-45e8-b934-80a52a2905df")
+	)
+	(fp_line
+		(start -0.95 -0.65)
+		(end 0.95 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36260b57-7f1b-449e-9638-4f1b2ccd122a")
+	)
+	(fp_line
+		(start -0.95 0.65)
+		(end -0.95 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d748ee6b-26fb-4c2d-b4b3-435017638f7d")
+	)
+	(fp_line
+		(start 0.95 -0.65)
+		(end 0.95 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "876b9cfc-3d86-428e-a31f-fcf321203a0b")
+	)
+	(fp_line
+		(start 0.95 0.65)
+		(end -0.95 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0125083-dada-4892-bafc-e67adb132af3")
+	)
+	(fp_line
+		(start -0.3 -0.15)
+		(end 0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec600bb1-0430-4d10-bb6b-13f0020317d9")
+	)
+	(fp_line
+		(start -0.3 0.15)
+		(end -0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e1aae6a-26cc-4143-a072-6a0ff9a59f41")
+	)
+	(fp_line
+		(start 0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4643b44-5c79-4738-ac1e-a4a08cca94e6")
+	)
+	(fp_line
+		(start 0.3 0.15)
+		(end -0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29a409b8-379e-4b1b-9f9e-dd47f74a98bf")
+	)
+	(pad "1" smd rect
+		(at -0.237 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "112943a4-1bba-47a7-a80b-0bcca7aca613")
+	)
+	(pad "2" smd rect
+		(at 0.237 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60229984-a079-474b-8fb9-488865a1c6af")
+	)
+	(embedded_fonts no)
+	(model "GRM0335C1H1R5WA01D.stp"
+		(offset
+			(xyz 0 0 0.1500000037)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

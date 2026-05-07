@@ -1,0 +1,99 @@
+(footprint "SolderWirePad_1x01_SMD_1x2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
+	(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
+	(property "Reference" "REF**"
+		(at 1.65 0.025 270)
+		(layer "F.SilkS")
+		(uuid "c4ce60ba-0a34-4ab8-9318-09ff690dc917")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c125471-2c7d-48e3-8947-f9b55e84e6c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55a1144d-c914-4585-b383-cc51d116b35e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b50d6bcc-08c2-4b8e-a035-e9826b51ad23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_rect
+		(start -0.75 -1.25)
+		(end 0.75 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7b991b0c-9ee9-4db0-ac6f-b192c8f9646d")
+	)
+	(fp_rect
+		(start -0.65 -1.15)
+		(end 0.65 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bc131814-9cba-4fee-98eb-65ce1fec6f14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3c84da44-0bb2-46ed-a86a-5cb6e26fb8ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "04075702-abb9-419e-9524-c958d90a6bc2")
+	)
+	(embedded_fonts no)
+)

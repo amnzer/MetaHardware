@@ -1,0 +1,149 @@
+(footprint "CAPC1608X90N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.93 0.075 0)
+		(layer "F.SilkS")
+		(uuid "e9f20f7e-61db-4b24-a86b-bb66732cf4ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.2u"
+		(at 2.602399 -2.0713 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f759a011-8f3e-4fd2-9025-b3816dc70dde")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7ad3f25-7436-4c49-a16c-9a93f1a9a6aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "900b8bc7-18c7-4014-a10b-cb2bb415d5e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.465 -0.715)
+		(end 1.465 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c694f489-de90-4cc8-befd-40d248fe7f33")
+	)
+	(fp_line
+		(start -1.465 0.715)
+		(end -1.465 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0f11838-0a4c-4f08-b818-e55464277765")
+	)
+	(fp_line
+		(start -1.465 0.715)
+		(end 1.465 0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0817ae9d-47b2-47be-b8c5-952fca14b875")
+	)
+	(fp_line
+		(start 1.465 0.715)
+		(end 1.465 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e50b4bc-f2a2-4ba7-b75c-d138766de511")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98bda519-b0c6-4bed-8509-353ea2a04e9a")
+	)
+	(fp_line
+		(start 0.85 -0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a92dec42-ed08-4777-a4a3-1f239033f23e")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end -0.85 0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec68ce73-bb91-4d28-bda4-5857aa19311a")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49c35fe9-3222-4519-aac8-b211a2191c68")
+	)
+	(pad "1" smd rect
+		(at -0.77 0)
+		(size 0.89 0.93)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "82e9211b-3636-4616-9d8f-91feae27e2e7")
+	)
+	(pad "2" smd rect
+		(at 0.77 0)
+		(size 0.89 0.93)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5aeaabf8-9925-4b5c-9243-07c14ab9dc80")
+	)
+	(embedded_fonts no)
+)

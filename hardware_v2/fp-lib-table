@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "metasenselib")(type "KiCad")(uri "${KIPRJMOD}/metasenselib.pretty")(options "")(descr ""))
+  (lib (name "metasense2")(type "KiCad")(uri "${KIPRJMOD}/metasense2.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/metasense2.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "metasenseflib")(type "KiCad")(uri "${KIPRJMOD}/metasenseflib.pretty")(options "")(descr ""))
+  (lib (name "metasensealt")(type "KiCad")(uri "${KIPRJMOD}/metasensealt.pretty")(options "")(descr ""))
+)

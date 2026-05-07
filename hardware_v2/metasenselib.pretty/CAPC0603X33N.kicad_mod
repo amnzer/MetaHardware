@@ -1,0 +1,240 @@
+(footprint "CAPC0603X33N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.694 -1.375 0)
+		(layer "F.SilkS")
+		(uuid "49a13fbc-1c71-4094-bb22-bfd589db2525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GRM0335C1H1R6BA01D"
+		(at 2.28 0.76 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcd72dbe-3774-45d9-a4eb-56c5cd0db032")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0976bd2-8c75-4de9-8a53-078d3d5ce3cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d63dd4a-4bc7-43c6-a5f1-2e7b83405979")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey_Part_Number" "490-11312-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4281ae56-1c06-475c-93a0-bc5d9c392212")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM0335C1H1R6BA01D/Murata/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e961f42a-7f88-492d-b7f2-40001c2bc92b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "SMD capacitor C0G(EIA) with capacitance 1.6pF Tol.0.1pF. Rated voltage 50Vdc 125C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b20944d2-17f4-4629-a270-ec3a9244b108")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18c80bd2-da69-4f16-9fec-239d3b0b1e38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "0603 Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97f4d733-2d74-42f2-b594-3beb712c86f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/GRM0335C1H1R6BA01D/Murata/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c840e580-1948-47ac-9716-ec0f751c32f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "GRM0335C1H1R6BA01D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcc4a713-1650-4ad1-842c-2b927bbbc1e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.718 -0.448)
+		(end 0.718 -0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99f359a9-55d9-4f8d-be47-709dea5cc022")
+	)
+	(fp_line
+		(start -0.718 0.448)
+		(end -0.718 -0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f506fdc1-23f8-406e-a565-b414d37e8da3")
+	)
+	(fp_line
+		(start -0.718 0.448)
+		(end 0.718 0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15b306d5-b942-4389-93f4-29fb3d310f48")
+	)
+	(fp_line
+		(start 0.718 0.448)
+		(end 0.718 -0.448)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "256be028-6039-4f99-a8cb-c47b3305013c")
+	)
+	(fp_line
+		(start -0.32 0.16)
+		(end -0.32 -0.16)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b325619f-f6d9-414e-9358-68d91cff57d9")
+	)
+	(fp_line
+		(start 0.32 -0.16)
+		(end -0.32 -0.16)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e3f450f-2702-4b17-bb5b-c505579a67f8")
+	)
+	(fp_line
+		(start 0.32 0.16)
+		(end -0.32 0.16)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4243e510-4302-4a07-97ff-ce46f6e53a8b")
+	)
+	(fp_line
+		(start 0.32 0.16)
+		(end 0.32 -0.16)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3b07f12-dee5-4e44-869f-40142104a799")
+	)
+	(pad "1" smd rect
+		(at -0.281 0)
+		(size 0.38 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9ed87791-5ff1-4c21-8c48-bed015297d5e")
+	)
+	(pad "2" smd rect
+		(at 0.281 0)
+		(size 0.38 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d60e90ba-da4b-4301-8b16-083d5f9840e4")
+	)
+	(embedded_fonts no)
+)
